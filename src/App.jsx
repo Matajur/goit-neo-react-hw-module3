@@ -25,7 +25,7 @@ function App() {
   };
 
   const getFilteredContacts = () => {
-    return userContacts
+    return phonebook
       .filter((contact) =>
         contact.name.toLowerCase().includes(filterValue.toLowerCase())
       )
